@@ -68,6 +68,7 @@ try {
 foreach ($arr['data']['items'] as $t => $tValue) {
 	//循环用户投稿相簿个数
 	$arr['data']['items'][$t];
+	$a ='';
 	echo '序号：' . $a = $a + 1 . "<br>";
 	echo '相簿ID：' . $arr['data']['items'][$t]['doc_id'] . '<br>';
 	echo '上传用户UID：' . $arr['data']['items'][$t]['poster_uid'] . '<br>';
