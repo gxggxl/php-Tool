@@ -7,6 +7,11 @@
  */
 header('content-type:text/html;charset=utf-8');
 error_reporting(0);
+/**
+ * @param     $url
+ * @param int $timeout
+ * @return bool|string
+ */
 function F_get($url, $timeout = 10) {
 	$user_agent = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (HTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36";
 	$curl = curl_init();
